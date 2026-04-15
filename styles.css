@@ -87,6 +87,10 @@ body {
     height: 44px;
 }
 
+.task-item i:hover {
+    cursor: pointer;;
+}
+
 /* Utilities */
 .error {
     border: 2px solid red !important;
