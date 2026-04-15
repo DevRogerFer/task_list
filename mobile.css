@@ -1,0 +1,36 @@
+@media (max-width: 1024px) and (min-width: 420px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+.container {
+  width: 90%;
+  min-width: 0;
+}
+
+.new-task-container {
+  flex-direction: column;
+}
+
+.new-task-container input {
+  margin-bottom: 12px;
+}
+
+.new-task-button {
+  width: 100%;
+  margin-left: 0;
+}
+
+.tasks-container {
+  padding: 20px 10px;
+}
+
+.task-item {
+  margin: 10px;
+  align-items: center;
+}
+
+.task-item i {
+  margin-top: 12px;
+}
